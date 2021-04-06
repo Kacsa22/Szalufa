@@ -46,5 +46,6 @@ public class MainActivity extends AppCompatActivity {
         szam = Double.valueOf(Math.round(szam));
         szam = szam / Math.pow(10,jegy);
         return szam;
+        
     }
 }
